@@ -1,0 +1,54 @@
+{
+  "Actions": [
+    {
+      "Icon": "static/App-logo.png",
+      "Name": "Hi",
+      "DisableAutomaticStates": true,
+      "States": [
+        {
+          "Image": "static/App-logo.png",
+          "TitleAlignment": "center",
+          "FontSize": "8"
+        }
+      ],
+      "Settings": {
+        "titleFormat": "title-artist",
+        "timeDisplay": "elapsed",
+        "showTitle": true
+      },
+      "Controllers": [],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": true,
+      "Tooltip": "demo operation",
+      "UUID": "com.mrxdev.volumeajazz.demo",
+      "PropertyInspectorPath": "propertyInspector/demo/index.html"
+    }
+  ],
+  "SDKVersion": 3,
+  "Author": "MrxDev",
+  "Name": "VolumeAjazz",
+  "Icon": "static/App-logo.png",
+  "CodePathWin": "plugin/index.js",
+  "CodePathMac": "plugin/index.js",
+  "Description": "Ajazz Volume Control Extension for StreamDock",
+  "Category": "VolumeAjazz",
+  "CategoryIcon": "static/App-logo.png",
+  "Version": "1.0.0",
+  "URL": "https://github.com/MrxDevv",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "7"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "3.10.188.226"
+  },
+  "Nodejs": {
+    "Version": "20"
+  }
+}
