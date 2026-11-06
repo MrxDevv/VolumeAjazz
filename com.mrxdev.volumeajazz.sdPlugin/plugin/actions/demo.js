@@ -11,7 +11,7 @@ module.exports = (plugin) => {
   };
 
   return {
-    name: "demo",
+    name: "com.mrxdev.volumeajazz.demo",
     action: action
   };
 };

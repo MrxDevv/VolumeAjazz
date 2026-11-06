@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { Plugins, log } = require("./utils/plugin");
 
-const plugin = new Plugins("my_plugin_name");
+const plugin = new Plugins("volumeajazz");
 
 plugin.didReceiveGlobalSettings = ({ payload: { settings } }) => {
   log.info("Global settings received:", settings);
